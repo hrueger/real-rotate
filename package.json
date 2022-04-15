@@ -1,0 +1,20 @@
+{
+  "name": "real-rotate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/cli.js",
+  "bin": {
+    "@hrueger/real-rotate": "bin/real-rotate",
+    "real-rotate": "bin/real-rotate"
+  },
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "exif-be-gone": "^1.2.2",
+    "sharp": "^0.30.3"
+  }
+}
